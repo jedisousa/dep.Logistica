@@ -18,7 +18,7 @@ p:hover{
 .main-login{
     width:100vw;
     height: 100vh;
-    background: rgb(144, 136, 136);
+    background: rgb(148, 136, 136);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +54,7 @@ p:hover{
     align-items: center;
     flex-direction: column;
     padding: 30px 20px;
-    background:rgb(85, 79, 79);
+    background:rgb(98, 89, 89);
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
 }
