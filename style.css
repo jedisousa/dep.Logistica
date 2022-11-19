@@ -7,6 +7,13 @@ body{
 body * {
     box-sizing: border-box;
 }
+p{
+    color: rgb(15, 14, 14);
+    box-shadow: inset;
+}
+p:hover{
+    color: rgb(116, 111, 111) ;
+}
 .main-login{
     width:100vw;
     height: 100vh;
@@ -74,14 +81,13 @@ body * {
     box-sizing: border-box;
 }
 .textfield >label{
-    color: #504d3bde;
+    color: #f8f8f7de;
     margin-bottom: 10px;
 }
 .textfield > input ::placeholder{
     color: #03030394;
 }
 .btn-login{
-    
     width: 100%;
     padding: 16px 0px;
     margin: 25px;
@@ -94,7 +100,7 @@ body * {
     color: black;
     background: #f0ffff94;
     cursor: pointer;
-    box-shadow: box-shadow:0px 10px 40px -12px ;
+    box-shadow:0px 10px 40px -12px
 }
 .btn-login:hover{
     color: black;
