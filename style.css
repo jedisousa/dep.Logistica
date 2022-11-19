@@ -34,6 +34,7 @@ p:hover{
 .left-login > h1{
     font-size: 3vw;
     color: rgb(242, 242, 242);
+    
 }
 .left-login-image{
     width:35vw;
@@ -74,7 +75,7 @@ p:hover{
     width: 100%;
     border: none;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
     background: #e9e8eb;
     color: rgb(12, 3, 3);
     font-size: 12pt;
@@ -84,7 +85,7 @@ p:hover{
 }
 .textfield >label{
     color: #f8f8f7de;
-    margin-bottom: 10px;
+    margin-bottom: 5px 5px;
 }
 .textfield > input ::placeholder{
     color: #03030394;
@@ -93,7 +94,7 @@ p:hover{
 
     width: 100%;
     padding: 16px 0px;
-    margin: 25px;
+    margin: 10px;
     border: none;
     border-radius: 8px;
     outline: none;
@@ -112,7 +113,7 @@ p:hover{
 .btn-cad{
     width: 100%;
     padding: 10px;
-    margin: 20px 4px;
+    margin: 10px 2px;
     border: none;
     border-radius: 8px;
     outline: none;
