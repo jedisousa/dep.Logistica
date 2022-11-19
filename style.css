@@ -67,18 +67,18 @@ body * {
     border-radius: 10px;
     padding: 15px;
     background: #e9e8eb;
-    color: rgb(232, 220, 220);
+    color: rgb(12, 3, 3);
     font-size: 12pt;
     box-shadow: 0px 10px 40px #00000056;
     outline: none;
     box-sizing: border-box;
 }
 .textfield >label{
-    color: #f0ffffde;
+    color: #504d3bde;
     margin-bottom: 10px;
 }
 .textfield > input ::placeholder{
-    color: #f0ffff94;
+    color: #03030394;
 }
 .btn-login{
     width: 100%;
@@ -93,7 +93,7 @@ body * {
     color: black;
     background: #f0ffff94;
     cursor: pointer;
-    box-shadow: box-shadow: 0px 10px 40px -12px ;
+    box-shadow: box-shadow:0px 10px 40px -12px ;
 }
 @media only screen and (max-width: 950px) {
     .card-login{
