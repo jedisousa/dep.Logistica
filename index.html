@@ -17,23 +17,37 @@
         <div class="right-login">
             <div class="card-login">
                 <h1>Logística</h1>
-              <div class="textfield">
-                <label for="Usuario">Usuários</label>
-                <input type="text" name="usuario" placeholder="Usuário...">
+   <form action="login.php" method="post" autocomplete="on">
+              <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="email" name="login" id="login" placeholder="seu e-mail..." autocomplete="email" required maxlength="30">
               </div>
-              <div class="textfield">
+              <div class="campo">
                 <label for="Senha"> Senha</label>
                 
-                <input type="password" name="senha" placeholder="Senha...">
-                
+                <input type="password" name="senha" id="senha" placeholder="sua senha..." autocomplete="current-password" required minlength="8" maxlength="20">
               </div>
-              <button class="btn-login">Entrar</button>
+
+              
+             
+                <input type="submit" value="ENTRAR">
+             
+              <a href="esqueci.html">
+               <p> Esqueci a Senha</p></a>
               <a href="cadastro.html">
                   <P>cadastre-se</P>
               </a>
-            </div>
-        </div>
+             
 
+            </form>
+            </div>
+            
+        
+            
+          
+        </div>
+    
     </div>
+ 
 </body>
 </html>
